@@ -72,7 +72,8 @@ const CreateAccount = () => {
                 </div>
 
                 {/* Create Account Button */}
-                <button className="w-full py-3 mt-6 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition">
+                <button className="w-full py-3 mt-6 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition"
+                    onClick={() => navigate("/account-settings")} >
                     Create Account
                 </button>
             </div>
